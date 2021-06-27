@@ -1,0 +1,53 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar {
+    background: rgb(4, 4, 15);
+    border-radius: 35px;
+    position: sticky;
+}
+
+.navbar ul {
+    overflow: auto;
+}
+
+.navbar li {
+    float: right;
+    margin: 15px 15px;
+    padding-top: 2px;
+    opacity: 0.8;
+}
+
+.navbar li:hover {
+    opacity: 1;
+}
+
+.navbar li a {
+    padding: 3px 3px;
+    color: white;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 18px;
+    padding-right: 670px;
+}
+
+.navbar .btn {
+    background: rgb(18, 70, 240);
+    color: white;
+    padding: 5px 15px 5px 15px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.mobile-nav {
+    display: none;
+}
+
+.tablet-navbar {
+    display: none;
+}
